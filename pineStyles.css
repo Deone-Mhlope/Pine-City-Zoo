@@ -199,3 +199,15 @@ button{
     color:white;
     text-align:center;
 }
+
+@media (max-width: 600px) {
+  .nav, .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
