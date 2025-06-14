@@ -211,3 +211,17 @@ button{
     margin-bottom: 10px;
   }
 }
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main-home,
+#tabs-top,
+#tabs-bottom,
+#header {
+    width: 100%;
+    box-sizing: border-box;
+}
